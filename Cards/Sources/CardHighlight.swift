@@ -133,7 +133,7 @@ import UIKit
         titleLbl.minimumScaleFactor = 0.1
         titleLbl.lineBreakMode = .byTruncatingTail
         titleLbl.numberOfLines = 3
-        backgroundIV.bringSubview(toFront: titleLbl)
+        backgroundIV.bringSubviewToFront(_: titleLbl)
         
         itemTitleLbl.textColor = textColor
         itemTitleLbl.text = itemTitle
